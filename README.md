@@ -34,7 +34,7 @@
 
 1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
-<a href="https://replit.com/@TcronebCrone/-19"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://replit.com/@TcronebCrone/-19](https://dassa-md-pair-site.onrender.com"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
 <a href="https://replit.com/@TcronebCrone/-19"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get PAIR-CODE-02" width="90"></a> 
 
