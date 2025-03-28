@@ -1,8 +1,8 @@
 {
-  "name": "NTEEJ-MD",
+  "name": "DASSA-MD",
   "description": "A simple WhatsApp bot with advanced features",
-  "logo": "https://i.postimg.cc/Z5zY71qy/PSX-20250106-022606.jpg",
-  "keywords": "Nteej md",
+  "logo": "https://camo.githubusercontent.com/8de3301f35f91a85f0be5f58c84a7cf8581b73f5810e0434d96dec49d7d6f1c0/68747470733a2f2f66696c65732e636174626f782e6d6f652f6d33727076722e706e67",
+  "keywords": "DASSA MD HEROKU",
   "success_url": "/Asta/",
   "app_url": "/qr/",
 
@@ -38,7 +38,7 @@
       "required": false,
       "value": "DASSA-MD"
     },
-    "AUTO_READ_STATUS": {
+    "AUTO_STATUS_READ": {
       "description": "Fill the value true if you want bot view your Statuses.",
       "required": false,
       "value": "true"
