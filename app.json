@@ -1,60 +1,60 @@
 {
-  "name": "DASSA-MD ",
-  "description": " Whatsapp bot.",
-  "logo": "https://camo.githubusercontent.com/8de3301f35f91a85f0be5f58c84a7cf8581b73f5810e0434d96dec49d7d6f1c0/68747470733a2f2f66696c65732e636174626f782e6d6f652f",
+  "name": "DASSA-MD-V1",
+  "description": "WhatsApp bot",
   "keywords": [
-    "whatsapp bot"
+    "whatsapp",
+    "bot"
   ],
   "repository": "https://github.com/Dassa20077/DASSA-MD-V2",
   "stack": "container",
   "env": { 
-      "SESSION_ID": {
-      "description": "your session id",
+    "SESSION_ID": {
+      "description": "Your WhatsApp session ID",
       "required": true,
       "value": ""
     },
     "MODE": {
-      "description": "mode public or self",
+      "description": "Mode of operation: public or self",
       "required": true,
-      "value": "self"
+      "value": "public"
     },
-    "AUTO_STATUS_READ": {
-      "description": "make it true if you want bot to view status",
-      "required": true,
-      "value": "true"
+    "AUTO_STATUS_SEEN": {
+      "description": "Set to true if bot should view status",
+      "required": false,
+      "value": ""
     },
     "AUTO_READ": {
-      "description": "make it true if you want bot to read message",
+      "description": "Set to true if bot should read messages",
       "required": false,
-      "value": "true"
+      "value": ""
     },
     "AUTO_TYPING": {
-      "description": "make it true if you want bot to show typing",
+      "description": "Set to true if bot should show typing status",
       "required": false,
-      "value": "false"
+      "value": ""
     },
     "AUTO_RECORDING": {
-      "description": "make it true if you want bot to show recording audio",
+      "description": "Set to true if bot should show recording status",
       "required": false,
-      "value": "false"
+      "value": ""
     },
     "ALWAYS_ONLINE": {
-      "description": "make it true if you want bot to show always online",
+      "description": "Set to true if bot should appear always online",
       "required": false,
-      "value": "true"
+      "value": ""
     },
     "AUTO_BLOCK": {
-      "description": "make it true if you want bot to auto block only 212 numbers",
+      "description": "Set to true to auto-block 212 numbers",
       "required": false,
-      "value": "true"
+      "value": ""
     },
     "REJECT_CALL": {
-      "description": "make it true if you want to reject call",
+      "description": "Set to true to reject calls",
       "required": false,
-      "value": "false"  
-    }   
-    },
-    "buildpacks": [
+      "value": ""
+    }
+  },
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
